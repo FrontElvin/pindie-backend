@@ -1,7 +1,7 @@
 
   
   
-const allowedCors = ["http://localhost:3000", "http://localhost:3001", "https://pindie-last-frontend.nomorepartiesco.ru/"];
+const allowedCors = ["http://localhost:3000", "http://localhost:3001", "https://pindie-last-frontend.nomorepartiesco.ru"];
 
 function cors(req, res, next) {
     const { origin } = req.headers;
@@ -18,3 +18,4 @@ function cors(req, res, next) {
 }
 
 module.exports = cors;
+
